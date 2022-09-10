@@ -1,5 +1,5 @@
 // Capture environment as module variable to allow testing.
-const getCompileTimeEnv = (): { NODE_ENV?: any } => {
+const getCompileTimeEnv = () => {
   try {
     const currentEnv = process.env;
 

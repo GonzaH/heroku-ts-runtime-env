@@ -1,6 +1,6 @@
 {
   "name": "@GonzaH/heroku-ts-runtime-env",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Runtime env var support for static javascript apps on Heroku",
   "main": "index.ts",
   "repository": {
