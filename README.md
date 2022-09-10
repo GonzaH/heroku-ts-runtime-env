@@ -25,3 +25,5 @@ How Does It Work?
 When developing your app, use [Runtime environment variables](https://github.com/mars/create-react-app-buildpack/blob/master/README.md#user-content-environment-variables) from **create-react-app-buildpack**.
 
 Then, each time the app starts-up on Heroku, a [`.profile.d` script](https://github.com/mars/create-react-app-inner-buildpack/blob/master/.profile.d/inject_react_app_env.sh) (installed from the buildpack) is executed which fills in a [JSON placeholder](https://github.com/mars/heroku-js-runtime-env/blob/master/index.js#L15) in the JavaScript bundle with the runtime environment variables. The result is 🍃fresh runtime environment variables in the production javascript bundle without recompiling.
+
+This is a test since I need to dynamically get the env vars in a ts react project.
